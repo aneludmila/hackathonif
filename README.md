@@ -106,6 +106,37 @@ Também devem ser verificados manualmente:
 - permissões dos diferentes perfis;
 - funcionamento em computador e celular.
 
+## Testes e Validação
+
+Foram realizados testes funcionais nas principais funcionalidades do AgroRota Inteligente, verificando o correto funcionamento dos fluxos essenciais do sistema.
+
+### Funcionalidades testadas
+
+- Consulta pública de trafegabilidade;
+- Cadastro de relatos comunitários;
+- Autenticação e controle de acesso;
+- MFA (autenticação em dois fatores) com envio simulado de código por SMS;
+- Dashboard e visualização de indicadores;
+- Cálculo do AgroScore.
+
+### Cenários verificados
+
+- Consulta de estrada existente e inexistente;
+- Cadastro de relato com dados válidos e inválidos;
+- Login com credenciais válidas e inválidas;
+- Validação do código MFA enviado por SMS simulado;
+- Acesso às páginas protegidas;
+- Permissões dos diferentes perfis de usuário;
+- Funcionamento em computador e dispositivos móveis.
+
+### Evidências
+
+As evidências dos testes são registradas por meio de capturas de tela, vídeos demonstrativos e registros das funcionalidades avaliadas.
+
+### Validação com usuários
+
+A validação formal com usuários finais ainda não foi realizada. Como etapa futura, o sistema será apresentado a produtores rurais, motoristas e gestores públicos para coleta de feedback e identificação de melhorias.
+
 ## Tecnologias utilizadas
 
 ### Frontend
